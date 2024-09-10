@@ -1,0 +1,136 @@
+/* infocss.css */
+
+/* General body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    float: left;
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+}
+
+.margintop {
+    margin-top: 60px; /* To avoid content overlapping with the navbar */
+}
+
+.ul {
+    list-style-type: none;
+    margin-left: 600px;
+    padding: 0;
+}
+
+.ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+    margin-top: 60px; /* To avoid overlap with navbar */
+}
+
+.maincontent {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.maincontent h2 {
+    font-family: 'Lora', serif;
+    color: #f27200;
+    font-size: 2em;
+}
+
+.maincontent p {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Login form styles */
+#login {
+    background-color: rgba(101, 99, 121, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(98, 115, 190, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#login table {
+    width: 100%;
+}
+
+#login h2.login {
+    margin-top: 0;
+    font-family: 'Lora', serif;
+}
+
+#login .btn {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#login .btn:hover {
+    background-color: darkred;
+}
+
+#login p.login {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#login .icon {
+    text-align: center;
+}
+
+#login .icon a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#login .icon img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .ul li {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}

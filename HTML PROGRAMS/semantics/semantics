@@ -1,0 +1,26 @@
+
+
+
+
+What are Semantic Elements?
+A semantic element clearly describes its meaning to both the browser and the developer.
+
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+  these are the semantics elements in html

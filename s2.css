@@ -1,0 +1,18 @@
+div{
+    background-color: chartreuse;
+    
+    width: 100px;
+    height: 100px;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    
+    
+
+}
+div:hover{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+    border-radius: 50%;
+}

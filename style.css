@@ -1,0 +1,37 @@
+/*.demo{
+    
+    width:200px;
+    height:200px;
+    background-color: rgb(184, 212, 83);
+    
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+.demo:hover{
+    background-color: rgb(231, 184, 112);
+    margin: 50px;
+    transform: rotate(90deg);
+    
+}.*/
+
+.box{
+    position: relative;
+   
+    width:200px;
+    height:200px;
+    background-color: black;   
+    animation-name: one;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+@keyframes one {
+    100%{
+        background-color: aliceblue;
+        width: 500px;
+        height: 500px;
+        left: 60px;
+    }
+    0%{
+        background-color: coral;
+    }
+}

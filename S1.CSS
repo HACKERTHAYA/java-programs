@@ -1,0 +1,9 @@
+h1{
+    color:rgb(247, 242, 247);
+    text-shadow: 2px 2px 4px #000000;
+}
+div{
+    border: solid;
+    background-color: aqua;
+    box-shadow: 10px 10px 5px 12px rgb(240, 42, 7);
+}

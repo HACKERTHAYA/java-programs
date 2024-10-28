@@ -1,0 +1,150 @@
+WHAT IS CSS:-
+
+CSS3, also known as Cascading Style Sheets Level 3, is a more advanced version of CSS and the successor of CSS2. CSS3 is used for the same thing as CSS, namely to style web pages and make them more attractive and user-friendly.
+
+CSS may be added to HTML in three different ways. To style a single HTML element on the page, use Inline CSS in a style attribute. By adding CSS to the head section of our HTML document, we can embed an internal stylesheet. We can also connect to an external stylesheet that separates our CSS from our HTML.
+----------------------------------------------------------------------------------
+CSS3 HOW TO:-
+
+Three Ways to Insert CSS
+There are three ways of inserting a style sheet:
+
+External CSS
+Internal CSS
+Inline CSS
+----------------------------------------------------------------------------------
+SINGLE LINE COMMENT IN CSS3 AND MULTI LINE COMMAND:-
+
+/* This is a single-line comment */
+
+---------------------------------------------------------------------------------------
+
+CSS3 COLOURS:-
+
+RGB------>RED, GREEN, BLUE.
+HEX------>#rrggbb
+RSL------>hsl(hue, saturation, lightness)
+
+--------------------------------------------------------------------------------------
+
+<body>
+
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+
+<p style="background-color:Tomato;">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+</p>
+
+----------------------------------------------------------------------------------
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+
+
+----------------------------------------------------------------------------------
+
+CSS3 BACKGROUNDS:-
+
+
+In these chapters, you will learn about the following CSS background properties:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background 
+
+----------------------------------------------------------------------------------
+
+BACKGROUND-COLOR:-
+
+
+body {
+  background-color: lightblue;
+}
+
+
+--------------------------------------------------------------------------------
+
+<style>
+h1 {
+  background-color: green;
+}
+
+div {
+  background-color: lightblue;
+}
+
+p {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS background-color example!</h1>
+<div>
+This is a text inside a div element.
+<p>This paragraph has its own background color.</p>
+We are still in the div element.
+</div>
+
+
+-----------------------------------------------------------------------------------
+OPACITY:-
+
+div.first{
+  background-color: green;
+  opacity: 0.3;
+}
+
+
+<div class="first"><p>opacity 0.1</p></div>
+<div class="second"><p>opacity 0.3</p></div>
+<div class="third"><p>opacity 0.6</p></div>
+<div><p>opacity 1 (default)</p></div>
+
+------------------------------------------------------------------------------------
+
+
+
+BACKGROUND-IMAGE:-
+
+
+body {
+  background-image: url("SDLC.PNG");
+}
+
+BACKGROUND IMAGE SCROLL:-
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}
+
+
+BACKGROUND IMAGRE FIXED:-
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+
+BACKGROUND SHORTAND:-
+
+<style>
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+  margin-right: 200px;
+}
+</style>
+
+
+

@@ -1,0 +1,1617 @@
+BORDERS:-
+
+The border-style property specifies what kind of border to display.
+
+The following values are allowed:
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+----------------------------------------------------------------------------------------------
+BORDER SYNTAX:-
+
+<style>
+p {border-style: dotted;}
+</style>
+
+<p >akfghahfoehfoeh</p>
+
+------------------------------------------------------------------------------------------
+BORDER WIDTH SYNTAX:-
+
+p.one {
+  border-style: solid;
+  border-width: 5px;
+}
+
+<p class="one">akjhfkjhfwehfklwjefwehf</p>
+-------------------------------------------------------------------------------------------------------------------
+BORDER COLOR SYNTAX:-
+
+p.one{border color: blue;}
+
+                    (OR)
+{border-color: red green blue yellow;}
+
+<p class="one">kfjsdfkjhsdjfhds</p>
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+BORDER SIDES SYNTAX:-
+
+p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+BORDER SHORTAND:-
+
+
+
+
+<style>
+p {
+  border: 5px double red;
+}
+</style>
+</head>
+<body>
+
+<h2>The border Property</h2>
+
+<p>This property is a shorthand property for border-width, border-style, and border-color.</p>
+
+-----------------------------------------------------------------------------------------------------------------
+
+ROUND BORDER SYNTAX:-
+
+<style>
+p{
+border-radius:10px;}
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+CSS MARGINS:-
+
+
+CSS has properties for specifying the margin for each side of an element:
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+
+Property	                           Description
+margin	                                   A shorthand property for setting all the margin properties in one declaration
+margin-bottom	                   Sets the bottom margin of an element
+margin-Left	                           Sets the left margin of an element
+margin-right	                   Sets the right margin of an element
+margin-top	                           Sets the top margin of an element
+---------------------------------------------------------------------------------------------------------------------------------------
+<style>
+div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<h2>Using individual margin properties</h2>
+
+<div>This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</div>
+
+-----------------------------------------------------------------------------------------------------------------------------------
+MARGIN SHORTAND PROPERTY:-
+
+
+margin: 25px 50px 75px 100px;
+top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px
+
+
+p {
+  margin: 25px 50px 75px 100px;
+}
+
+margin: auto;
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+PADDING STYLE AND ELEMENTS:-
+
+
+CSS has properties for specifying the padding for each side of an element:
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+PADDING SHORTAND PROPERTY:-
+
+padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px
+----------------------------------------------------------------------------------------------------------------
+
+HEIGHT AND WIDTH:-
+
+The height and width properties may have the following values:
+
+auto -               This is default. The browser calculates the height and width
+length -            Defines the height/width in px, cm, etc.
+% -                     Defines the height/width in percent of the containing block
+initial -             Sets the height/width to its default value
+inherit -            The height/width will be inherited from its parent value
+-------------------------------------------------------------------------------------------------------------------------------
+
+div {
+  height: 100px;
+  width: 500px;
+  background-color: powderblue;
+}
+------------------------------------------------------------------------------------------------------------------------------------------
+MAX-WIDTH:-
+
+div {
+  max-width: 500px;
+  height: 100px;
+  background-color: powderblue;
+}
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CSS TEXT:-
+
+
+Text Alignment and Text Direction
+
+text-align
+text-align-last
+direction
+unicode-bidi
+vertical-align
+-------------------------------------------------------------------------------------------------------------
+TEXT ALIGN (JUSTIFY):-
+
+div {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+}
+-----------------------------------------------------------------------------------------------------------
+
+IT MENTION SECOND ROW STARTING POINT:-
+
+
+p.a {
+  text-align-last: right;
+}
+
+p.b {
+  text-align-last: center;
+}
+
+p.c {
+  text-align-last: justify;
+}
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+VERYTICAL TEXT ALIGN:-
+
+
+<style>
+img.a {
+  vertical-align: baseline;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+img.c {
+  vertical-align: text-bottom;
+}
+
+img.d {
+  vertical-align: sub;
+}
+
+img.e {
+  vertical-align: super;
+}
+
+
+Property	                        Description
+direction	                       Specifies the text direction/writing direction
+text-align	                       Specifies the horizontal alignment of text
+text-align-last	               Specifies how to align the last line of a text
+unicode-bidi	               Used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document
+vertical-align	               Sets the vertical alignment of an element
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+TEXT DECORATION:-
+
+text-decoration-line
+text-decoration-color
+text-decoration-style
+text-decoration-thickness
+text-decoration
+									
+------------------------------------------------------------------------------------------------------------------------------------
+
+TEXT-DECORATION-LINE:-
+
+h1 {
+  text-decoration: overline;
+}
+
+h2 {
+  text-decoration: line-through;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h4{
+  text-decoration: overline underline;
+}
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+TEXT DECORATION STYLE & COLOR:-
+
+h1 {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+h2 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+h3 {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+p.ex1 {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+
+p.ex2 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+p.ex3 {
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+}
+
+------------------------------------------------------------------------------------------------------------------
+
+The Shorthand Property
+The text-decoration property is a shorthand property for:
+
+text-decoration-line (required)
+text-decoration-color (optional)
+text-decoration-style (optional)
+text-decoration-thickness (optional)
+
+
+
+h1 {
+  text-decoration: underline;
+}
+
+h2 {
+  text-decoration: underline red;
+}
+
+h3 {
+  text-decoration: underline red double;
+}
+
+p {
+  text-decoration: underline red double 5px;
+}
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+TEXT TRANSFORMATION:-
+
+
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+
+-------------------------------------------------------------------------------------------------
+
+TEXT SPACING:-
+
+
+
+text-indent
+letter-spacing
+line-height 
+word-spacing
+white-space
+
+
+
+Property	                            Description
+letter-spacing	                   Specifies the space between characters in a text
+line-height	                          Specifies the line height
+text-indent	                          Specifies the indentation of the first line in a text-block
+white-space	                 Specifies how to handle white-space inside an element
+word-spacing	                  Specifies the space between words in a text
+
+---------------------------------------------------------------------------------------------------------------------------
+
+TEXT INDENT:-
+
+p {
+  text-indent: 50px;
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+LINE HEIGHT:-
+
+p.small {
+  line-height: 0.8;
+}
+
+p.big {
+  line-height: 1.8;
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+LETTER SPACING:-
+
+h1 {
+  letter-spacing: 5px;
+}
+
+h2 {
+  letter-spacing: -2px;
+}
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+WORD SPACING:--
+
+
+
+p.one {
+  word-spacing: 10px;
+}
+
+p.two {
+  word-spacing: -2px;
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+WHITE SPACING:-
+
+p {
+  white-space: nowrap;
+}
+
+-------------------------------------------------------------------------------------------------------------------------
+
+DISPLAY PROPERTY:-
+
+<style>
+p {color: red;}
+
+p.ex1 {display: none;}
+p.ex2 {display: inline;}
+p.ex3 {display: block;}
+p.ex4 {display: inline-block;}
+</style>
+
+--------------------------------------------------------------------------------------------
+
+
+CSS FONTS:-
+
+The font property is a shorthand property for:
+
+font-style
+
+-------------------------------------------------
+font-variant
+
+
+p.small {
+  font-variant: small-caps;
+}
+--------------------------------------------------------
+
+font-weight
+font-size/line-height
+font-family
+
+
+--------------------------------------------------------------------------
+
+CSS TABLES:-
+
+HEIGHT FOR TABLES:-
+
+table {
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
+
+-----------------------------------------------------------------
+
+TEXT ALIGN FOR TABLES:-
+
+th {
+  text-align: left;
+}
+------------------------------------------------------------------------
+
+TABLE STYLE:-
+
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+------------------------------------------------------------------------
+
+TABLE RESPONSIVE:-
+
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+<div style="overflow-x: auto;">
+  <table>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+
+----------------------------------------------------------------------------
+
+
+CSS POSITIONS:-
+
+
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static
+
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+
+-------------------------------------------------------------------
+relative
+
+div.relative {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+
+--------------------------------------------------------------
+fixed
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+------------------------------------------------------------------
+absolute
+
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+----------------------------------------------------------------------------------
+sticky
+
+div.sticky {
+  position: sticky;
+  top: 100px;
+  left:10px;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+
+-------------------------------------------------------------------
+------------------------------------------------------------------------
+
+CSS SHADOWS:-
+
+CSS Shadow Effects
+With CSS you can add shadow to text and to elements.
+
+In these chapters you will learn about the following properties:
+
+text-shadow
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+box-shadow
+
+
+div {
+  box-shadow: 10px 10px 5px 12px lightblue;
+}
+
+
+------------------------------------------------------------------------
+
+CSS FLOAT:-
+
+Syntax
+float: none | left | right | initial | inherit;
+
+Value	                Description
+none	                Default value; the element does not float.
+left	                        Element floats on the left side of the container, allowing content to flow around its right side.
+right	                Element floats on the right side of the container, allowing content to flow around its left side.
+initial	                Element is set to its default value.
+inherit	                The element inherits the floating property from its parent element.
+
+div{
+  float:right;---------------in this way use all the tags.
+<div>float<div>
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+PSEUDO CLASS:-
+
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
+
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+a.highlight:hover {
+  color: #ff0000;
+  font-size: 22px;
+
+
+<p><a class="highlight" href="css_syntax.asp">CSS Syntax</a></p>
+
+----------------------------------------------------------------------------------------------------
+
+<style>
+p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+div:hover p {
+  display: block;
+}
+</style>
+
+<div>Hover over this div element to show the p element
+  <p>Tada! Here I am!</p>
+</div>
+
+----------------------------------------------------------------------------------------
+
+p:first-child {
+  color: blue;
+} 
+</style>
+</head>
+<body>
+
+<p>This is some text.</p>
+<p>This is some text.</p>
+
+<div>
+  <p>This is some text.</p>
+  <p>This is some text.</p>
+</div>
+------------------------------------------------------------------------------------------------
+
+p i:first-child {
+  color: blue;
+} 
+</style>
+</head>
+<body>
+
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+
+
+------------------------------------------------------------------------------------------------------------
+
+<style>
+q:lang(no) {
+  quotes: "~" "~";
+}
+</style>
+</head>
+<body>
+
+<p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+
+-----------------------------------------------------------------------------------------------------------------
+
+PSEUDO ELEMENT:-
+
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+</style>
+</head>
+<body>
+
+<p>You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+-------------------------------------------------------------------------------------------------------
+
+The following properties apply to the ::first-line pseudo-element:
+
+font properties
+color properties
+background properties
+word-spacing
+letter-spacing
+text-decoration
+vertical-align
+text-transform
+line-height
+clear
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+WH IF THE CLASS ELEMENT ADD TO TO THE TAGS:-
+
+
+p.(class name here)::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+
+----------------------------------------------------------------------------------------------------------------
+
+PESUDO CLASS ELEMENTS:-
+
+Selector	                                     Example	                                                   Example description
+
+::after	                                     p::after	                                                   Insert something after the content of each <p> element
+::before	                                     p::before	                                                   Insert something before the content of each <p> element
+::first-letter                          	     p::first-letter	                                           Selects the first letter of each <p> element
+::first-line	                             p::first-line	                                           Selects the first line of each <p> element
+::marker                                     ::marker	                                                   Selects the markers of list items
+::selection	                            p::selection	                                           Selects the portion of an element that is selected by a user
+
+---------------------------------------------------------------------------------------------------------------------
+CSS SHAPES:-
+
+
+<style>
+.trapezoid {
+	border-bottom: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
+
+-------------------------------------------------------------------------------------------------------------------------
+
+.parallelogram {
+	width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+	background: #555;
+}
+
+------------------------------------------------------------------------------------------------------------
+
+TRIANGLE UP:-
+
+<style>
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+}
+</style>
+</head>
+<body>
+
+<h2>Triangle Up CSS</h2>
+<div class="triangle-up"></div>
+
+TRIANGLE DOWN:-
+
+<style>
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #555;
+}
+</style>
+</head>
+<body>
+
+<h2>Triangle Down CSS</h2>
+<div class="triangle-down"></div>
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
+OVERFLOW:-
+
+visible	                   The overflow is not clipped. It renders outside the element's box. This is default	
+hidden	                    The overflow is clipped, and the rest of the content will be invisible. Content can be scrolled programmatically (e.g. by setting scrollLeft or scrollTo())	
+clip	                           The overflow is clipped, and the rest of the content will be invisible. Forbids scrolling, including programmatic scrolling.	
+scroll                      	The overflow is clipped, but a scroll-bar is added to see the rest of the content	
+auto	                   If overflow is clipped, a scroll-bar should be added to see the rest of the content	
+initial	                    Sets this property to its default value. Read about initial	
+inherit	                         Inherits this property from its parent element. Read about inherit
+
+
+
+
+body {
+  background-color:#E7E9EB;
+}
+#myDIV {
+  height:300px;
+  background-color:#FFFFFF;
+}
+.ex1 {
+  background-color: lightblue;
+  width: 150px;
+  height: 100px;
+  overflow:auto;
+}
+</style>
+</head>
+<body>
+
+<h1>The overflow property</h1>
+
+<div id="myDIV">
+  <div class="ex1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+</div>
+
+------------------------------------------------------------------------------------------------------------------
+
+
+OVER FLOW WRAP:-
+
+
+div {
+  width: 150px; 
+  border: 1px solid #000000;
+}
+
+div.a {
+  overflow-wrap: normal;
+}
+
+div.b {
+  overflow-wrap: break-word;
+}
+
+div.c {
+  overflow-wrap: anywhere;
+}
+</style>
+</head>
+<body>
+
+<h1>The overflow-wrap Property</h1>
+
+<h2>overflow-wrap: normal (default):</h2>
+<div class="a">This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will not break and wrap to the next line.</div>
+
+<h2>overflow-wrap: break-word:</h2>
+<div class="b">This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</div>
+
+<h2>overflow-wrap: anywhere:</h2>
+<div class="c">This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</div>
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+OVERFLOW X ANY Y:-
+
+
+div.ex1 {
+  background-color: lightblue;
+  width: 40px;
+  overflow-x: scroll;
+}
+
+div.ex2 {
+  background-color: lightblue;
+  width: 40px;
+  overflow-x: hidden;
+}
+
+div.ex3 {
+  background-color: lightblue;
+  width: 40px;
+  overflow-x: auto;
+}
+
+div.ex4 {
+  background-color: lightblue;
+  width: 40px;
+  overflow-x: visible;
+}
+</style>
+</head>
+<body>
+
+<h1>The overflow-x Property</h1>
+
+<p>The overflow-x property specifies whether to clip the content, add a scroll bar, or display overflow content of a block-level element, when it overflows at the left and right edges.</p>
+
+<h2>overflow-x: scroll:</h2>
+<div class="ex1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</div>
+
+<h2>overflow-x: hidden:</h2>
+<div class="ex2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit..</div>
+
+<h2>overflow-x: auto:</h2>
+<div class="ex3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</div>
+
+<h2>overflow-x: visible (default):</h2>
+<div class="ex4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</div>
+
+--------------------------------------------------------------------------------------------
+
+CSS BOX SIZING:-
+
+CSS Box Sizing
+The CSS box-sizing property allows us to include the padding and border in an element's total width and height.
+
+.div1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.div2 {
+  width: 300px;
+  height: 100px;  
+  padding: 50px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+
+<h1>With box-sizing</h1>
+
+<div class="div1">Both divs are the same size now!</div>
+<br>
+<div class="div2">Hooray!</div>
+
+
+----------------------------------------------------------------------------------------------------
+
+<style>
+body {
+  background-color:#E7E9EB;
+}
+#myDIV {
+  height:300px;
+  background-color:#FFFFFF;
+  padding:30px;
+}
+#blueDIV {
+  width:200px;
+  border:30px solid coral;
+  padding:10px;
+  background-color:lightblue;
+  box-sizing:content-box;
+}
+</style>
+</head>
+<body>
+
+<h1>The box-sizing Property</h1>
+
+<div id="myDIV">
+<p>Below is a 200px DIV with 10px padding and a 30px border.
+If box-sizing is "border-box", the total width of the DIV element is always 200px,
+but if box-sizing is "content-box", the total width is 200px plus padding and border = 280px.</p>
+<div id="blueDIV">See what different box-sizing values does for an element.</div>
+</div>
+
+--------------------------------------------------------------------------------------------------------------------
+
+Transition
+	
+	transition-property	transition-duration	transition-delay	 transition-timing-function	transition
+
+		transition-timing function
+		
+			ease		-	start slow / end slow
+
+			linear		-	Maintain same speed from start to end
+
+			ease-in		-	slow start
+
+			ease-out	-	slow end
+
+			ease-in-out	-	slow start and end
+
+--------------------------------------------------
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  
+}
+div:hover {
+  width: 300px;
+  transition: width 2s, 
+}
+
+
+-----------------------------------------------------------------------------------
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+ }
+div:hover {
+  width: 300px;
+  height: 300px;
+  transition: width 2s, height 4s;
+}
+
+-------------------------------------------------------------------------------------
+  TRANSITION TIMING FUNCTION:-
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}
+
+div:hover {
+  width: 300px;
+
+-------------------------------------------------------------------------------
+
+TRANSITION DELAY:-
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 3s;
+  transition-delay: 1s;
+}
+
+div:hover {
+  width: 300px;
+}
+
+--------------------------------------------------------------------------------------
+
+TRANSITION DELAY:-
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+----------------------------------------------------------
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+div:hover {
+  width: 300px;
+}
+
+----------------------------------------------------------------------------------
+
+
+CSS ANIMATION:-
+
+
+
+@keyframes
+
+
+When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain times.
+
+To get an animation to work, you must bind the animation to an element.
+
+
+----------------------------------------------------------------------------------------------
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode
+animation
+
+
+---------------------------------------------------------------------------------------------------------
+  THE ANIMATION IN FORM AND TO ELEMENT:-
+
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+------------------------------------------------------------------------------
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+animation-delay     also use in this case
+---------------------------------------------------------------------------------
+
+ANIMATION DIRETION:-
+
+normal - The animation is played as normal (forwards). This is default
+reverse - The animation is played in reverse direction (backwards)
+alternate - The animation is played forwards first, then backwards
+alternate-reverse - The animation is played backwards first, then forwards
+
+------------------------------------------------------------------------
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: reverse;  
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+-------------------------------------------------------------------------
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;  
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+-----------------------------------------------------------------
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;  
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+---------------------------------------------------------------------------------
+
+
+ANIMATION TIMING FUNCTION:-
+
+
+The animation-timing-function property specifies the speed curve of the animation.
+
+The animation-timing-function property can have the following values:
+
+ease -                                     Specifies an animation with a slow start, then fast, then end slowly (this is default)
+linear -                                   Specifies an animation with the same speed from start to end
+ease-in -                               Specifies an animation with a slow start
+ease-out -                            Specifies an animation with a slow end
+ease-in-out -                      Specifies an animation with a slow start and end
+cubic-bezier(n,n,n,n) -     Lets you define your own values in a cubic-bezier function
+
+
+---------------------------------------------------------------------------------------
+
+div {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s;
+  animation-fill-mode: forwards;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+----------------------------------------------------------------------------------------
+
+ANIMATION FILL MODE:-
+
+NONE
+FORWARD
+BACKWARD
+BOTH
+------------------------------------------------------------------
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 200px; background-color: blue;}
+}
+
+--------------------------------------------------------------------------------------------
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes example {
+  from {top: 0px; background-color: yellow;}
+  to {top: 200px;}
+}
+
+---------------------------------------------------------------
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes example {
+  from {top: 0px; background-color: yellow;}
+  to {top: 200px; background-color: blue;}
+}
+
+------------------------------------------------------------------
+
+CSS FLEX BOX:-
+
+
+FLEXCONTAINER PROPERTIES:-
+
+The flex container properties are:
+
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content
+
+------------------------------------------------------------
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+----------------------------------------------------------------
+
+FLEX DIRECTION:-
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+ADD ELEMENTS
+
+1.COLOUMN REVERSE
+
+2. ROW
+
+3.ROW REVERSE
+
+------------------------------------------------------------------------------------
+
+FLEX WRAP:-
+
+flex-wrap: wrap;
+
+flex-wrap: nowrap;
+
+flex-wrap: reverse-wrap;
+
+flex-wrap: row wrap;
+
+
+-------------------------------------------
+
+justify content:-
+
+justify-content: flex-start;
+
+ justify-content: flex-end;
+
+justify-content: space-around;
+
+justify-content: space-between;
+
+-------------------------------------------
+
+ALIGN ITEMS:-
+
+align-items: center;                                   The "align-items: flex-start;" aligns the flex items at the top of the container:
+
+ align-items: flex-start;                            The "align-items: center;" aligns the flex items in the middle of the container:
+
+align-items: flex-end;                               The "align-items: flex-end;" aligns the flex items at the bottom of the container:
+
+align-items: stretch;                                The "align-items: stretch;" stretches the flex items to fill the container (this is default)
+
+----------------------------------------------------
+
+
+FLEX ITEM PROPERTIES:-
+
+The flex item properties are:
+
+order
+flex-grow
+flex-shrink
+flex-basis
+flex
+align-self
+
+
+
+<div class="flex-container">
+  <div style="order: 3">1</div>
+  <div style="order: 2">2</div>
+  <div style="order: 4">3</div>
+  <div style="order: 1">4</div>
+</div>
+
+
+<div class="flex-container">
+  <div style="flex-grow: 1">1</div>
+  <div style="flex-grow: 1">2</div>
+  <div style="flex-grow: 8">3</div>
+</div>
+
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex-shrink: 0">3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
+</div>
+
+-------------------------------------------------------------------------
+
+
+
+
+
+
+
